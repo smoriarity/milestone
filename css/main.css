@@ -21,18 +21,18 @@ font-style: normal;
 /*****BASE STYLES*****/
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #31424b;
+    font-family: 'alegreya', serif;
+    color: #2b2b2b;
 }
 
 
 #work {
-    height: 1700px;
+    height: 1800px;
 }
 
 
 #about {
-  height: 964px;
+  height: 700px;
 }
 
 
@@ -44,13 +44,18 @@ body {
 /**** layout ****/
 
 .full-width {
-  width: 1400px;
+  width: 1440px;
   margin: 0 auto;
 }
 
 .half-width {
-    width: 700px;
+    width: 720px;
     float: left;
+}
+
+.third-width {
+  width: 480px;
+  float: left;
 }
 
 /**** HEADER *****/
@@ -58,39 +63,23 @@ body {
 
 header {
     height: 700px;
-    background: url("../img/updatebg2.png");
+    background: url("../img/dog-img.png");
     background-size: cover;
-    background-color: #ffffff;
-  /****  background-repeat: *****/
+    background-color: #ebebeb;
 }
 
 
 header h1 {
-    font-family: 'Nothing You Could Do', cursive;
-    color: #31424b;
-    text-shadow: 0 3px #ebebeb;
-    font-size: 26px;
-    padding: 20px 0 0 40px;
+    font-family: 'reenie-beanie', sans-serif;
+    color: #2b2b2b;
+    font-size: 48px;
+    padding: 40px 0 30px;
   }
-
-header h2 {
-    clear: both;
-    font-family: 'Cutive Mono', monospace;
-    font-size: 18px;
-    color: #31424b;
-    text-shadow: 3px 3px #ebebeb;
-    padding-left: 45px
-  }
-
-  header h2 span {
-      color: #fda92f;
-  }
-
 
 nav {
     float: right;
     margin: 0;
-    padding: 20px 20px 0 0;
+    padding: 40px 30px 0 0;
 
 }
 
@@ -100,13 +89,10 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    text-transform: uppercase;
+    font-family: 'adorn-condensed-sans', sans-serif;
+    font-size: 36px;
     text-decoration: none;
-    font-style: italic;
-    color: #31424b;
-    text-shadow: 0 1px #ebebeb;
+    color: #2b2b2b;
     padding-left: 20px;
 
 }
@@ -126,180 +112,109 @@ nav ul li a {
 }
 
 #work .half-width {
-  width: 500px;
+  width: 520px;
 
 }
 
 #work h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
+    font-family: 'adorn-condensed-sans', sans-serif;
+    font-size: 48px;
     text-align: center;
-    color: #31424b;
-    text-shadow: 0 3px #ebebeb;
-
-}
-
-#work h4 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
+    color: #2b2b2b;
 
 }
 
 #work h5 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: italic;
-    border-bottom: .3px solid #fda92f;
-    width: 195px;
+    font-family: 'adorn-roman', sans-serif;
+    font-size: 34px;
 }
 
 
-#work p {
-    font-size: 18px;
+/**#work p {
     clear: both;
     width: 350px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 24px;
-}
+    font-family: 'alegreya', serif;
+    font-size: 24px;
+    line-height: 30px;
+}**/
 
 /******WEB Portfolio ******/
 
-#webp {
-  padding-top: 75px;
+#jubp {
+  padding-top: 20px;
 }
 
-#webp p {
-  font-family: 'Montserrat', sans-serif;
+#jubp p {
+  font-family: 'alegreya', serif;
+  font-size: 24px;
 }
 
 
-#webimg {
+#jubimg {
   float: left;
   margin: 75px 50px 25px 250px;
-  border-bottom: 2px solid #ebebeb;
-  border-right: 2px solid #ebebeb;
-  border-left: 2px solid #ebebeb;
   padding: 20px 25px;
 
-
 }
 
-#jap p {
-  font-family: 'Montserrat', sans-serif;
+#rogp p {
+  font-family: 'alegreya', serif;
+  font-size: 24px;
 }
 
-#jap a:link {
-    color: #31424b;
+#rogp a:link {
+    color: #2b2b2b;
     text-decoration: none;
 }
 
-#jap a:visited {
-    color: #31424b;
+#rogp a:visited {
+    color: #2b2b2b;
     text-decoration: none;
 }
 
-#jap a:hover {
-    color: #fda92f;
+#rogp a:hover {
+    color: #122932;
     text-decoration: none;
 }
 
 
-#jap a:active {
-    color: #31424b;
+#rogp a:active {
+    color: #2b2b2b;
     text-decoration: none;
 }
 
-#work p span {
-    border-bottom: 1px solid #fda92f;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-#jaimg {
+#rogimg {
     float: left;
-    margin-left: 250px;
-    margin-right: 50px;
-    border-bottom: 2px solid #ebebeb;
-    border-right: 2px solid #ebebeb;
-    border-left: 2px solid #ebebeb;
+    margin: 75px 50px 25px 250px;
     padding: 20px 25px;
+  /**  margin-left: 250px;
+    margin-right: 50px;
+    padding: 20px 25px;**/
+}
 
+#manp {
+  padding-top: 20px;
+}
+
+#manp p {
+  font-family: 'alegreya', serif;
+  font-size: 24px;
 }
 
 
-/*****PHOTOS AND ILLUSTRATIONS ******/
-
-#drawp {
-    float: left;
-    margin-left: 251px;
-    margin-top: 200px;
-    padding-left: 45px;
-    border-left: 2px solid #ebebeb;
-}
-
-#drawp p {
-    width: 400px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    line-height: 24px;
+#manimg {
+  float: left;
+  margin: 75px 50px 25px 250px;
+  padding: 20px 25px;
 
 }
 
-#drawp h4 {
-    font-family: 'Montserrat', sans-serif;
-}
+/**Service Section**/
 
-#drawp span {
-    color: #fda92f;
-}
-
-#drawp a:link {
-    color: #31424b;
-    text-decoration: none;
-}
-
-#drawp a:visited {
-    color: #31424b;
-    text-decoration: none;
-}
-
-#drawp a:hover {
-    color: #fda92f;
-    text-decoration: none;
-}
-
-#drawp a:active {
-    color: #31424b;
-    text-decoration: none;
-}
-
-#illustrations {
-    float: right;
-    padding-top: 130px;
-    margin-right: 98px;
-}
-
-#illustrations p {
-    text-align: right;
-    margin-right: 100px;
-    clear: both;
-
-}
-
-#work #poppy {
-    margin-right: 5px;
-    height: 7%;
-    float: right;
-}
 
 /*****ABOUT ****/
 
 #about {
-  background: url("../img/snow-bg.png");
-  background-size: cover;
   width: 100%;
   background-color: #ebebeb;
 
@@ -312,17 +227,16 @@ nav ul li a {
 }
 
 #about h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 36px;
+  font-family: 'adorn-roman', sans-serif;
+  font-size: 48px;
   text-align: center;
-  color: #31424b;
-  text-shadow: 0 3px #ebebeb;
+  color: #2b2b2b;
   padding-bottom: 15px;
 
 }
 
 
-#about #info {
+/**#about #info {
 
     text-align: center;
     padding: 15px 45px;
@@ -333,16 +247,17 @@ nav ul li a {
     border-right: 7px inset rgba(35, 35, 35, 0.5);
     border-top: 10px inset rgba(0, 0, 0, 0.7);
     border-radius: .5%;
-  }
+  }**/
 
 
-#about img {
-    border: 7px inset rgba(127, 127, 127, 0.5);
+#about aboutimg {
+    border: 3px /**inset rgba(127, 127, 127, 0.5);**/
+    border-color: #cccccc;
     border-radius: 50%;
 }
 
 #about p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'alegreya', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
