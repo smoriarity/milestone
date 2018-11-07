@@ -27,9 +27,12 @@ body {
 
 
 #work {
-    height: 1800px;
+    height: 1300px;
 }
 
+#work-serv {
+  height: 500px;
+}
 
 #about {
   height: 700px;
@@ -152,7 +155,7 @@ nav ul li a {
 
 #jubimg {
   float: left;
-  margin: 75px 50px 25px 250px;
+  margin: 75px 50px 50px 150px;
   padding: 20px 25px;
 
 }
@@ -185,11 +188,8 @@ nav ul li a {
 
 #rogimg {
     float: left;
-    margin: 75px 50px 25px 250px;
+    margin: 75px 50px 50px 150px;
     padding: 20px 25px;
-  /**  margin-left: 250px;
-    margin-right: 50px;
-    padding: 20px 25px;**/
 }
 
 #manp {
@@ -204,13 +204,38 @@ nav ul li a {
 
 #manimg {
   float: left;
-  margin: 75px 50px 25px 250px;
+  margin: 75px 50px 50px 150px;
   padding: 20px 25px;
 
 }
 
 /**Service Section**/
 
+#work-serv {
+  text-align: center;
+}
+
+#work-serv .full-width {
+    padding: 100px 0;
+}
+
+#work-serv img {
+    padding-bottom: 30px;
+}
+
+#work-serv h5 {
+    font-size: 30px;
+    line-height: 50px;
+    width: 375px;
+    margin: 0 auto;
+}
+
+#work-serv p {
+    font-family: 'alegreya', serif;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 50px;
+}
 
 /*****ABOUT ****/
 
@@ -227,11 +252,11 @@ nav ul li a {
 }
 
 #about h2 {
-  font-family: 'adorn-roman', sans-serif;
+  font-family: 'adorn-condensed-sans', sans-serif;
   font-size: 48px;
   text-align: center;
   color: #2b2b2b;
-  padding-bottom: 15px;
+  /**padding-bottom: 15px;**/
 
 }
 
@@ -251,7 +276,7 @@ nav ul li a {
 
 
 #about aboutimg {
-    border: 3px /**inset rgba(127, 127, 127, 0.5);**/
+    border: 3px
     color: #cccccc;
     border-radius: 50%;
 }
@@ -266,31 +291,6 @@ nav ul li a {
   }
 
 
-  #about p span {
-      text-decoration: underline #fda92f;
-      font-family: 'Nothing You Could Do', cursive;
-      font-size: 26px;
-  }
-  #about a:link {
-      color: #31424b;
-      text-decoration: none;
-  }
-
-  #about a:visited {
-      color: #31424b;
-      text-decoration: none;
-  }
-
-  #about a:hover {
-      color: #fda92f;
-      text-decoration: none;
-  }
-
-  #about a:active {
-      color: #31424b;
-      text-decoration: none;
-  }
-
 /****** CONTACT *****/
 
 
@@ -300,43 +300,41 @@ nav ul li a {
     height: 400px;
 }
 
-#contact h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
+#contact h3 {
+    font-family: 'adorn-roman', sans-serif;
+    font-size: 50px;
     text-align: center;
-    color: #31424b;
-    text-shadow: 0 3px #ebebeb;
+    color: #2b2b2b;
 }
 
+#contact h5 {
+    font-family: 'alegreya', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #2b2b2b;
+}
 
 #contact a {
     text-decoration: none;
-    color:  #fda92f;
-    font-family: 'Montserrat', sans-serif;
+    color: #122932;
+    font-family: 'alegreya', serif;
     font-size: 24px;
 }
 
 #contact #email {
   float: left;
   text-align: center;
-  padding: 25px 0 0 355px;
+  padding: 25px 0 0 50px;
 
 }
 
 
 #contact #social {
-    width: 700px;
-    padding: 50px 0 0 440px;
+    width: 650px;
+    padding: 50px 0 0 100px;
 
 }
 
-
-#contact #social h4, #contact #email h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #31424b;
-
-}
 #contact ul {
     list-style: none;
 }
@@ -347,13 +345,6 @@ nav ul li a {
 }
 
 #contact img {
-    width: 15%;
-    padding-left: 2px;
-}
-
-#contact #cat {
-    float: right;
-    padding-left: 100px;
-    margin: 0 auto;
-
+   width: 25%;
+   padding: 50px;
 }
