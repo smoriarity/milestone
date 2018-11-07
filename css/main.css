@@ -252,7 +252,7 @@ nav ul li a {
 
 #about aboutimg {
     border: 3px /**inset rgba(127, 127, 127, 0.5);**/
-    border-color: #cccccc;
+    color: #cccccc;
     border-radius: 50%;
 }
 
