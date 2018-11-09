@@ -52,8 +52,8 @@ body {
 }
 
 .half-width {
-    width: 720px;
-    float: left;
+   width: 720px;
+   float: left;
 }
 
 .third-width {
@@ -68,8 +68,6 @@ header {
     height: 800px;
     background: url("../img/dog-img.png");
     background-size: cover;
-    background-position-x: 110px;
-    background-repeat: no-repeat;
     background-color: #ebebeb;
 }
 
@@ -77,9 +75,9 @@ header {
 header h1 {
     font-family: 'reenie-beanie', sans-serif;
     color: #2b2b2b;
-    font-size: 120px;
-    margin-top: 200px;
-    margin-left: -200px;
+    font-size: 100px;
+    padding-top: 200px;
+    padding-left: 5%;
  }
 
 header h2{
@@ -87,15 +85,14 @@ header h2{
   color: #122932;
   font-size: 45px;
   letter-spacing: 10px;
-  margin-top: -150px;
-  margin-left: -100px;
+    padding-left: 15%;
+  margin-top: -130px;
 
 }
 
 nav {
     float: right;
-    margin-right: -140px;
-
+    padding-right: 5%;
 }
 
 nav ul li {
@@ -105,12 +102,12 @@ nav ul li {
 
 nav ul li a {
     font-family: 'adorn-roman', sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: lowercase;
     color: #122932;
-    padding-left: 35px;
+    padding-left: 25px;
 
 }
 
